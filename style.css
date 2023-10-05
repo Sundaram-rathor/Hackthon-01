@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+body{
+    height: 100%;
+    width: 100%;
+
+}
+#page1{
+    
+    position: relative;
+    color: white;
+    height:100vh;
+    width: 100%;
+    background-color: #cf2e2e;
+    overflow: hidden;
+    
+}
+#main{
+    background-image: url(//demo.zozothemes.com/pappory/wp-content/uploads/sites/31/2019/02/pattern2.png);
+    background-size: cover;
+    z-index: 9;
+    height: 300vh;
+    
+    
+    
+}
+/* navigation bar */
+
+
+/* main's content of first page*/
+
+#main-cont{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10vh;
+    margin-bottom: 0;
+}
+#main-left{
+    height: 75vh;
+    width: 50%;
+    
+    margin-bottom: 0;
+    font-family: 'Archivo Black', sans-serif;
+    
+}
+#main-right{
+    
+    height: 100vh;
+    width: 45%;
+    margin-bottom: 0;
+    background-image: url(/childp1.png);
+    background-size: cover;
+    background-size: 100% 100%;
+
+}
+
+#main-left #d1{
+    
+    margin: 8vw 6vw ;
+    font-size: 1.5vw;
+    font-weight: 100;
+    color: #cf2e2e;
+    
+}
+#main-left #d1 #yellow{
+    text-align: right;
+    padding: 5px;
+    height: 3vw;
+    width: 100%;
+    position: absolute;
+    background-color: #fcb900;
+    border-radius: 50px;
+    transform: translate(-80%,-60%)
+    
+}
+
+#main-left #d2{
+    margin: 6vw 6vw;
+    font-size: 3vw;
+    padding: 5vw 0vw;
+    
+}
+
+                                                                       /* phenotics */
+
+/* #page1 #pheno{
+    display: none;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+
+}
+
+#Phenotics #ph-cont table{
+    color:  black;
+    height: 100%;
+    width: 100%;
+    padding: 4vh;
+    border: 1px solid rgba(0, 0, 0, 0.529);
+    border-collapse: collapse;
+}
+
+#Phenotics #ph-cont table th,td{
+    border: 1px solid rgba(0, 0, 0, 0.236);
+    border-collapse: collapse;
+    padding: 2vh;
+}
+#Phenotics #ph-cont table td {
+    cursor: pointer;
+}
+#Phenotics #ph-cont table th{
+    background-color: #cf2e2e;
+    color: white;
+}
+
+/* pheno2 */
+
+
+
+/* #Phenotics1 #ph-cont1 table{
+    color:  black;
+    height: 100%;
+    width: 100%;
+    padding: 4vh;
+    border: 1px solid rgba(0, 0, 0, 0.529);
+    border-collapse: collapse;
+}
+
+#Phenotics1 #ph-cont1 table th,td{
+    border: 1px solid rgba(0, 0, 0, 0.236);
+    border-collapse: collapse;
+    padding: 2vh;
+}
+#Phenotics1 #ph-cont1 table th{
+    background-color: #cf2e2e;
+    color: white;
+}
+#main #page1 #Phenotics{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    
+    background-image: url(https://demo2.themelexus.com/ibble2/wp-content/uploads/2022/10/course02.jpg);
+    background-size: cover;
+}
+#main #page1 #Phenotics1{
+    position: relative;
+    height: 0vh;
+    width: 100%;
+    display: none;
+    background-image: url(https://demo2.themelexus.com/ibble2/wp-content/uploads/2022/10/course02.jpg);
+    background-size: cover;
+}
+#main #page1 #Phenotics1 #ph-cont1{
+    width: 90%;
+    margin-left: -2vw;
+}
+#main #page1 #Phenotics2{
+    position: relative;
+    height: 0vh;
+    width: 100%;
+    display: none;
+    background-image: url(https://demo2.themelexus.com/ibble2/wp-content/uploads/2022/10/course02.jpg);
+    background-size: cover;
+} */
+
+/* pheno3 */
+
+
+
+/* #Phenotics2 #ph-cont2 table{
+    color:  black;
+    height: 100%;
+    width: 100%;
+    padding: 4vh;
+    border: 1px solid rgba(0, 0, 0, 0.529);
+    border-collapse: collapse;
+}
+
+#Phenotics2 #ph-cont2 table th,td{
+    border: 1px solid rgba(0, 0, 0, 0.236);
+    border-collapse: collapse;
+    padding: 2vh;
+}
+#Phenotics2 #ph-cont2 table th{
+    background-color:#cf2e2e;
+    color: white;
+} */ */
+
+
+                                                              /* challenges */
+
+ 
+
+
+
+
+
+                                                                  /* videos  section */
+
+
+
+
+
+                                                              /* progress-section */
+
+
+                                                              /* About us */
+
+
+
+
+
+
+                                                                /* main */
+#main #page1 #bg-ph{
+    background-color: rgba(255, 165, 121, 0.575);
+    
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#main #page1 #bg-ph1{
+    background-color: rgba(255, 165, 121, 0.575);
+    
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#main #page1 #bg-ph2{
+    background-color: rgba(255, 165, 121, 0.575);
+    
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}   
+
+
+
+#main #page1 #ph-cont{
+    position: relative;
+    height: 75vh;
+    width: 84%;
+    background-color: whitesmoke;
+  transform: translate(10%, 10%);
+    
+}
+
+#main #page1 #ph-cont1{
+    position: relative;
+    height: 75vh;
+    width: 84%;
+    background-color: whitesmoke;
+  transform: translate(10%, 10%);
+    
+}
+
+#main #page1 #ph-cont2{
+    position: relative;
+    height: 75vh;
+    width: 84%;
+    background-color: whitesmoke;
+  transform: translate(10%, 10%);
+    
+}
+
+
+                                                                     /*page 2*/
+#page2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+}
+#page2 #p2-l{
+    
+    height: 90vh;
+    width: 60%;
+    
+    padding: 2vh;
+}
+#page2 #p2-l #img1{
+    margin-left: 40vh;
+    margin-top: 7vh;
+    height: 80vh;
+    width: 60%;
+    background-color: orange;
+    background-image: url(https://demo.zozothemes.com/pappory/wp-content/uploads/sites/31/2019/05/side-7.jpg);
+    background-size: cover;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#page2 #p2-l #img2{
+    height: 50vh;
+    width:25%;
+    background-color: violet;
+    position: absolute;
+    margin-left: 23vh;
+    z-index: 9;
+    transform: translateY(-80%);
+    background-image: url(https://demo.zozothemes.com/pappory/wp-content/uploads/sites/31/2019/05/side-8.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#page2 #p2-r{
+    height: 90vh;
+    width: 40%;
+    position: relative;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30vh;
+    font-family: 'Lilita One', cursive;
+    font-weight: 300;
+    overflow: hidden;
+}
+#page2 #p2-r .points{
+    margin: 2vh 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+#page2 #p2-r .points h3{
+    margin: 0 2vh;
+}
+#page2 #p2-r .about{
+    margin: 2vh;
+    font-family: 'Dosis', sans-serif;
+    z-index: 9;
+}
+
+#page2 #p2-r #p2rbg{
+    position: absolute;
+    height: 60vh;
+    width: 50vw;
+    
+    background-color: aliceblue ;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+                                                                /* page-3 */
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #fcb900;
+    display: flex;
+   
+}
+#page3 #bg{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://demo.zozothemes.com/pappory/wp-content/uploads/sites/31/2019/02/event-2.jpg?id=11985);
+    background-size: cover;
+    
+}
+#page3 #bg #bgcol{
+    height: 100vh;
+    width: 100%;
+    background-color: #9b51e0a7;
+}
+
+#page3 #bg #bgcol #p3txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15vh ;
+    font-family: 'Dosis', sans-serif;
+    
+}
+#page3 #bg #bgcol #p3txt #p3join{
+      font-size: 5vh;
+      font-weight: bolder;
+}
+
+#page3 #bg #bgcol #p3txt #p3exp{
+    font-size: 8vh;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+#page3 #bg #bgcol  #p3img{
+    background-image: url(https://demo.zozothemes.com/pappory/wp-content/uploads/sites/31/2019/05/School-kids-839x400.png);
+    
+    background-size:100% 100%;
+    height: 60vh;
+    width: 80%;
+    
+    margin-top: 5%;
+    margin-left: 10%;
+}
+

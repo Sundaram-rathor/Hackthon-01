@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+body{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+#page4 {
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#Phenotics{
+    padding: 4vh;
+    
+}
+#Phenotics #ph-cont table{
+    color:  black;
+    height: 100%;
+    width: 100%;
+    padding: 4vh;
+    border: 1px solid rgba(0, 0, 0, 0.529);
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+#Phenotics #ph-cont table th,td{
+    border: 1px solid rgba(0, 0, 0, 0.236);
+    border-collapse: collapse;
+    padding: 2vh;
+}
+#Phenotics #ph-cont table td {
+    cursor: pointer;
+}
+#Phenotics #ph-cont table th{
+    background-color: #cf2e2e;
+    color: white;
+}
+
+/* pheno2 */
+
+
+#Phenotics1{
+    padding: 4vh;
+}
+#Phenotics1 #ph-cont1 table{
+    color:  black;
+    height: 100%;
+    width: 100%;
+    padding: 4vh;
+    border: 1px solid rgba(0, 0, 0, 0.529);
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#Phenotics1 #ph-cont1 table th,td{
+    border: 1px solid rgba(0, 0, 0, 0.236);
+    border-collapse: collapse;
+    padding: 2vh;
+}
+#Phenotics1 #ph-cont1 table th{
+    background-color: #cf2e2e;
+    color: white;
+}
+#main #page1 #Phenotics{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    
+    background-image: url(https://demo2.themelexus.com/ibble2/wp-content/uploads/2022/10/course02.jpg);
+    background-size: cover;
+}
+#main #page1 #Phenotics1{
+    position: relative;
+    height: 0vh;
+    width: 100%;
+    display: block;
+    background-image: url(https://demo2.themelexus.com/ibble2/wp-content/uploads/2022/10/course02.jpg);
+    background-size: cover;
+}
+#main #page1 #Phenotics1 #ph-cont1{
+    width: 90%;
+    margin-left: -2vw;
+}
+#main #page1 #Phenotics2{
+    position: relative;
+    height: 0vh;
+    width: 100%;
+    display: block;
+    background-image: url(https://demo2.themelexus.com/ibble2/wp-content/uploads/2022/10/course02.jpg);
+    background-size: cover;
+}
+
+/* pheno3 */
+
+
+#Phenotics2{
+    padding: 4vh;
+
+}
+#Phenotics2 #ph-cont2 table{
+    color:  black;
+    height: 100%;
+    width: 100%;
+    padding: 4vh;
+    border: 1px solid rgba(0, 0, 0, 0.529);
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#Phenotics2 #ph-cont2 table th,td{
+    border: 1px solid rgba(0, 0, 0, 0.236);
+    border-collapse: collapse;
+    padding: 2vh;
+}
+#Phenotics2 #ph-cont2 table th{
+    background-color:#cf2e2e;
+    color: white;
+}

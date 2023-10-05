@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+body{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+#main #page8 #about {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    width: 100%;
+    
+}
+
+#main #page8 #about #about-head {
+    height: 40vh;
+    width: 100%;
+    background-image: url(https://demo.zozothemes.com/pappory/wp-content/uploads/sites/31/2019/02/title-bg-ex.jpg);
+    background-size: cover;
+    
+    
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 100;
+}
+#main #page8 #about #about-head #about-red-bg{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cf2e2ea1;
+    
+}
+#main #page8 #about #about-main{
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+}
+#main #page8 #about #about-main #about-main-l{
+    height: 70vh;
+    width: 40%;
+    background-color: white;
+    padding: 15vh 6vh;
+    margin: 10vh 5vh;
+    color: rgba(0, 0, 0, 0.644);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+#main #page8 #about #about-main #about-main-l div{
+    margin: 3vh;   
+}
+
+#main #page8 #about #about-main #about-main-r{
+    height: 70vh;
+    width: 40%;
+    background-image: url(/books.jpg);
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: rgba(0, 0, 0, 0.644);
+    padding: 15vh 6vh;
+    margin: 10vh 10vh;
+    transform: translateX(15vh);
+}

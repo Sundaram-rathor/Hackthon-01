@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#page7 #progress{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+#page7 #progress #progress-left{
+    height: 90vh;
+    width: 50%;
+    background-color: whitesmoke;
+    display: flex;
+    position: relative;
+}
+#page7 #progress #progress-left #progress-left-main{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: left;
+    height: 80%;
+    width: 90%;
+    background-color: white;
+    margin: 7vh;
+    margin-left: 13vh;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#page7 #progress #progress-left #progress-left-main #progresscard{
+    height: 35vh;
+    width: 35vh;
+    position: relative;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+} 
+#page7 #progress #progress-left #progress-left-main #progresscard #progresscard-inner{
+    height: 27vh;
+    width: 27vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+#page7 #progress #progress-left #progress-left-main #progresscard #progresscard-inner #num{
+    font-size: 5vh;
+    color: rgba(0, 0, 0, 0.695);
+}
+#page7 #progress #progress-left #progress-left-main #circle{
+    height: 35vh;
+    width: 35vh;
+    position: absolute;
+    
+    margin-top: 3.7vh;
+    margin-left: 1.1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page7 #progress #progress-left #progress-left-main #circle circle{
+    fill: none;
+    stroke: #cf2e2e;
+    stroke-width: 4.2vh;
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+    animation: anim 1.5s linear forwards;
+}
+@keyframes anim {
+    100%{
+        stroke-dashoffset: 254 ;
+    }
+    
+}
+
+
+
+#page7 #progress #progress-left #progress-left-main #ind-progress{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    width: 100%;
+    color: black;
+}
+#page7 #progress #progress-left #progress-left-main #ind-progress #ind-progress-1,#ind-progress-2,#ind-progress-3{
+    display: flex;
+    height: 33%;
+    width: 100%;
+    padding: 3vh;
+    justify-content: space-between;
+    align-items: center;
+}
+#page7 #progress #progress-left #progress-left-main #ind-progress #ind-progress-1 #ind-progress-1-name{
+    font-size: 3vh;
+    width: 20%;
+    
+   
+
+}
+#page7 #progress #progress-left #progress-left-main #ind-progress #ind-progress-1 #ind-progress-1-bar{
+    display: flex;
+    height: 2vh;
+    width: 80%;
+    padding: 0vh 1vh;
+
+}
+#page7 #progress #progress-left #progress-left-main #ind-progress #ind-progress-1 #ind-progress-1-bar #colred-bar1{
+    background-color:#fcb900;
+    height: 2vh;
+    width: 75%;
+    border-radius:20px; 
+}
+
+
+#page7 #progress #progress-left #progress-left-main #ind-progress #ind-progress-1 #ind-progress-1-bar #rest-bar1{
+    background-color: whitesmoke;
+    height: 2vh;
+    width: 25%;
+    border-radius:20px;     
+}
+
+
+
+
+
+#page7 #progress #progress-left #progress-left-main #ind-progress #ind-progress-2 #ind-progress-2-name{
+    font-size: 3vh;
+    width: 20%;
+    
+   
+
+}
+#page7 #progress #progress-left #progress-left-main #ind-progress #ind-progress-2 #ind-progress-2-bar{
+    display: flex;
+    height: 2vh;
+    width: 80%;
+    padding: 0vh 1vh;
+
+}
+#page7 #progress #progress-left #progress-left-main #ind-progress #ind-progress-2 #ind-progress-2-bar #colred-bar2{
+    background-color:#fcb900;
+    height: 2vh;
+    width: 45%;
+    border-radius:20px; 
+}
+
+
+#page7 #progress #progress-left #progress-left-main #ind-progress #ind-progress-2 #ind-progress-2-bar #rest-bar2{
+    background-color: whitesmoke;
+    height: 2vh;
+    width: 55%;
+    border-radius:20px;     
+}
+
+
+
+
+
+#page7 #progress #progress-left #progress-left-main #ind-progress #ind-progress-3 #ind-progress-3-name{
+    font-size: 3vh;
+    width: 20%;
+    
+    
+
+}
+#page7 #progress #progress-left #progress-left-main #ind-progress #ind-progress-3 #ind-progress-3-bar{
+    display: flex;
+    height: 2vh;
+    width: 80%;
+    padding: 0vh 1vh;
+
+}
+#page7 #progress #progress-left #progress-left-main #ind-progress #ind-progress-3 #ind-progress-3-bar #colred-bar3{
+    background-color:#fcb900;
+    height: 2vh;
+    width: 33%;
+    border-radius:20px; 
+}
+
+
+#page7 #progress #progress-left #progress-left-main #ind-progress #ind-progress-3 #ind-progress-3-bar #rest-bar3{
+    background-color: whitesmoke;
+    height: 2vh;
+    width: 66%;
+    border-radius:20px;     
+}
+
+
+
+
+#page7 #progress #progress-right{
+    height: 90vh;
+    width: 50%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+#page7 #progress #progress-right #right-main{
+    height: 40vh;
+    width: 90%;
+    background-color: white;
+    margin: 7vh 3vh;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    color: black;
+    
+}
+
+
+
+
+#page7 #progress #progress-right #right-main #progress-right-1{
+    display: flex;
+    height: 5vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh;
+    
+
+}
+#page7 #progress #progress-right #right-main #progress-right-1 #ind-progress-1-name-r{
+    font-size: 3vh;
+}
+#page7 #progress #progress-right #right-main #progress-right-1 #ind-progress-1-bar-r{
+    display: flex;
+    height: 2vh ;
+    width: 80%;
+   
+}
+#page7 #progress #progress-right #right-main #progress-right-1 #ind-progress-1-bar-r #colred-bar1-r{
+    height: 100%;
+    width: 75%;
+    background-color:#fcb900;
+    border-radius: 10px;
+    
+}
+#page7 #progress #progress-right #right-main #progress-right-1 #ind-progress-1-bar-r #rest-bar1-r{
+    height: 100%;
+    width: 25%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    
+}
+
+
+#page7 #progress #progress-right #right-main #progress-right-2{
+    display: flex;
+    height: 5vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh;
+    
+
+}
+#page7 #progress #progress-right #right-main #progress-right-2 #ind-progress-2-name-r{
+    font-size: 3vh;
+}
+#page7 #progress #progress-right #right-main #progress-right-2 #ind-progress-2-bar-r{
+    display: flex;
+    height: 2vh ;
+    width: 80%;
+   
+}
+#page7 #progress #progress-right #right-main #progress-right-2 #ind-progress-2-bar-r #colred-bar2-r{
+    height: 100%;
+    width: 45%;
+    background-color:#fcb900;
+    border-radius: 10px;
+    
+}
+#page7 #progress #progress-right #right-main #progress-right-2 #ind-progress-2-bar-r #rest-bar2-r{
+    height: 100%;
+    width:55%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    
+}
+
+
+
+
+#page7 #progress #progress-right #right-main #progress-right-3{
+    display: flex;
+    height: 5vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh;
+    
+
+}
+#page7 #progress #progress-right #right-main #progress-right-3 #ind-progress-3-name-r{
+    font-size: 3vh;
+}
+#page7 #progress #progress-right #right-main #progress-right-3 #ind-progress-3-bar-r{
+    display: flex;
+    height: 2vh ;
+    width: 80%;
+   
+}
+#page7 #progress #progress-right #right-main #progress-right-3 #ind-progress-3-bar-r #colred-bar3-r{
+    height: 100%;
+    width: 33%;
+    background-color:#fcb900;
+    border-radius: 10px;
+    
+}
+#page7 #progress #progress-right #right-main #progress-right-3 #ind-progress-3-bar-r #rest-bar3-r{
+    height: 100%;
+    width: 66%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    
+}
